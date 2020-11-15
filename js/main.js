@@ -6,15 +6,15 @@ import { fetchData } from "./modules/TheDataMiner.js";
         debugger;
         var projectID = event.target.id;
         var project = event.target.parentElement;
-     fetchData(`./includes/index.php?id=${projectID}`).then(projectData => addText(projectData, project)).catch(err => console.log(err));
+     fetchData(`./includes/index.php?id=${projectID}`).then(projectData => Text(projectData, project)).catch(err => console.log(err));
     }
 
-    function addText(projectData, element){
+    function Text(projectData, element){
         let currentUserText = element.children;
-        currentUserText[2].textContent = projectData[0].text;
+        currentUserText[2].textContent = projectData[2].text;
     }
     function renderPortfolioThumbnails(thumbnails) {
-        let userSection = document.querySelector('.favourite-things'),
+        let userSection = document.querySelector('.favourite_things_section'),
             userTemplate = document.querySelector('#mainContainer').content;
 
         for (let user in thumbnails) {
