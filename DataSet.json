@@ -1,0 +1,12 @@
+[
+    {"type":"header","version":"5.0.2","comment":"Export to JSON plugin for PHPMyAdmin"},
+    {"type":"database","name":"favourite_things"},
+    {"type":"table","name":"ashwin_favourite","database":"favourite_things","data":
+    [
+    {"Id":"1","Name":"games","Description":"I love games and thats one of my favorite things. I game almost everyday","image":"pc_games.jpg"},
+    {"Id":"2","Name":"superheroes","Description":"I love reading or watching superhero movies or comics. I mean who doesn't","image":"superheroes.jpg"},
+    {"Id":"3","Name":"chatting ","Description":"chatting with friends using phone (during these trying times)","image":"chatting.png"}
+    ]
+    }
+    ]
+    
