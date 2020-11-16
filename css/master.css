@@ -2,14 +2,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   background-color: #ffdb99;
-  text-align: center;
 }
-body .firstContainer {
+body #favourite_things_page {
   display: flex;
   color: #FFB98C;
   background-color: #B3FCFF;
 }
-body .firstContainer h1 {
+body #favourite_things_page h1 {
+  color: black;
   display: flex;
   margin-left: 670px;
 }
